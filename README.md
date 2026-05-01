@@ -24,7 +24,7 @@
 │   ├── sales.csv
 │   ├── inventory.csv
 │   ├── web_traffic.csv
-    ├── baseline.ipynb
+│   ├── baseline.ipynb
 │   └── sample_submission.csv
 │
 ├── MCQS.ipynb                   # Phần 1: Câu hỏi Trắc nghiệm
