@@ -9,7 +9,6 @@
 ## Cấu trúc thư mục
 
 ```
-.
 ├── data/                        # Dữ liệu cuộc thi
 │   ├── products.csv
 │   ├── customers.csv 
