@@ -1,12 +1,13 @@
 import pandas as pd
 
-df_orders = pd.read_csv('orders.csv')
-df_order_items = pd.read_csv('order_items.csv', low_memory=False)
-df_products = pd.read_csv('products.csv')
-df_customers = pd.read_csv('customers.csv')
-df_geography = pd.read_csv('geography.csv')
-df_promotions = pd.read_csv('promotions.csv')
-df_returns = pd.read_csv('returns.csv')
+datapath = 'data/'
+df_orders = pd.read_csv(datapath + 'orders.csv')
+df_order_items = pd.read_csv(datapath + 'order_items.csv', low_memory=False)
+df_products = pd.read_csv(datapath + 'products.csv')
+df_customers = pd.read_csv(datapath + 'customers.csv')
+df_geography = pd.read_csv(datapath + 'geography.csv')
+df_promotions = pd.read_csv(datapath + 'promotions.csv')
+df_returns = pd.read_csv(datapath + 'returns.csv')
 
 df_customers_geo = pd.merge(
     df_customers, 
