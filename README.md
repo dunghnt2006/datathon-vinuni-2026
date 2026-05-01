@@ -27,7 +27,7 @@
 │   ├── baseline.ipynb
 │   └── sample_submission.csv
 │
-├── MCQS.ipynb                   # Phần 1: Câu hỏi Trắc nghiệm
+├── MCQs.ipynb                   # Phần 1: Câu hỏi Trắc nghiệm
 ├── sales_forecasting.ipynb      # Phần 3: Mô hình Dự báo Doanh thu
 ├── submission.csv               # File kết quả dự báo nộp lên Kaggle
 └── README.md
@@ -37,7 +37,7 @@
 
 ## Mô tả các notebook
 
-### `mcqs.ipynb` — Phần 1: Câu hỏi Trắc nghiệm
+### `MCQs.ipynb` — Phần 1: Câu hỏi Trắc nghiệm
 Notebook này chứa toàn bộ code phân tích dữ liệu để trả lời 10 câu hỏi trắc nghiệm
 
 ### `sales_forecasting.ipynb` — Phần 3: Mô hình Dự báo Doanh thu
