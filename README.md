@@ -27,6 +27,9 @@
 │   └── sample_submission.csv
 │
 ├── MCQs.ipynb                   # Phần 1: Câu hỏi Trắc nghiệm
+├── master.py                    # Script tạo bảng master tổng hợp (Phần 2)
+├── master_data.xlsx             # Phân tích doanh thu & margin theo segment/promo (Phần 2)
+├── inventory.xlsx               # Phân tích tồn kho theo category (Phần 2)
 ├── sales_forecasting.ipynb      # Phần 3: Mô hình Dự báo Doanh thu
 ├── submission.csv               # File kết quả dự báo nộp lên Kaggle
 └── README.md
@@ -34,10 +37,16 @@
 
 ---
 
-## Mô tả các notebook
+## Mô tả các file
 
 ### `MCQs.ipynb` — Phần 1: Câu hỏi Trắc nghiệm
 Notebook này chứa toàn bộ code phân tích dữ liệu để trả lời 10 câu hỏi trắc nghiệm
+
+### `master.py` + `master_data.xlsx` + `inventory.xlsx` — Phần 2: Trực quan hoá & Phân tích
+ 
+- **`master.py`**: join các bảng dữ liệu thô và tính các cột `real_revenue`, `gross_profit`, `margin_pct`, xuất ra `master_data.csv`
+- **`master_data.xlsx`**: phân tích doanh thu và biên lợi nhuận theo segment và khuyến mãi
+- **`inventory.xlsx`**: phân tích tồn kho và sell-through rate theo category
 
 ### `sales_forecasting.ipynb` — Phần 3: Mô hình Dự báo Doanh thu
  
@@ -72,4 +81,3 @@ pip install pandas numpy scikit-learn matplotlib seaborn shap lightgbm
 | :--- | :--- | :--- | :--- |
 | **Revenue** | 81,934.79 | 120,892.50 | 0.9947 |
 | **COGS** | 181,941.34 | 283,309.61 | 0.9618 |
-
